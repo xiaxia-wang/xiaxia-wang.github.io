@@ -1,1 +1,2 @@
-Project of my personal profile. 
+This is the project of my personal profile. 
+\(//3//)/
