@@ -3028,7 +3028,7 @@ input, select, textarea {
 			#main {
 				margin-left: 30%;
 				max-width: none;
-				padding: 6em 3em 3em 3em;
+				padding: 1.5em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
 
@@ -3110,7 +3110,7 @@ input, select, textarea {
 
 			#main {
 				margin: 0;
-				padding: 6em 4em;
+				padding: 2em 4em;
 				width: 100%;
 			}
 
@@ -3173,12 +3173,12 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				padding: 2.25em 1.5em 0.25em 1.5em;
+				padding: 1em 1.5em 0.25em 1.5em;
 			}
 
 				#main > section {
-					margin: 2.25em 0 0 0;
-					padding: 2.25em 0 0 0;
+					margin: 1em 0 0 0;
+					padding: 1em 0 0 0;
 				}
 
 		/* Poptrox */
