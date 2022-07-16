@@ -1,2 +1,1 @@
-This is the project of my personal profile. 
-\(//3//)/
+- This is the project of my homepage: [https://xiaxia-wang.github.io/](https://xiaxia-wang.github.io/). 
