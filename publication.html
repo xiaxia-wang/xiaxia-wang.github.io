@@ -1,14 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
----
-permalink: /publication/
----
-
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<base target="_blank" />
 	<title>Xiaxia Wang</title>
 	<link rel="icon" href="images/ducky.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="images/ducky.ico" type="image/x-icon">
@@ -66,15 +61,15 @@ permalink: /publication/
 				The 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025).
 			</p>
 			<p> <strong>Xiaxia Wang</strong>, David J. Tena Cucala, Bernardo Cuenca Grau, Ian Horrocks.
-				<a href="">Faithful Rule Extraction for Differentiable Rule Learning Models (Extended Abstract).</a>
+				<a href="https://iris-ai.org/resources/proceedings/2025/papers/7.pdf">Faithful Rule Extraction for Differentiable Rule Learning Models (Extended Abstract).</a>
 				The 1st International Research and Industry Symposium on AI (IRIS-AI 2025).
 			</p>
             <p> Dongzhuoran Zhou, Yuqicheng Zhu, <strong>Xiaxia Wang</strong>, Hongkuan Zhou, Jiaoyan Chen, Steffen Staab, Yuan He, Evgeny Kharlamov.
-                <a href="">GR-Agent: Adaptive Graph Reasoning Agent under Incomplete Knowledge.</a>
+                <a href="https://arxiv.org/pdf/2512.14766">GR-Agent: Adaptive Graph Reasoning Agent under Incomplete Knowledge.</a>
                 Workshop on Scaling Environments for Agents (SEA@NeurIPS 2025).
             </p>
             <p> Dongzhuoran Zhou, Yuqicheng Zhu, <strong>Xiaxia Wang</strong>, Hongkuan Zhou, Yuan He, Jiaoyan Chen, Steffen Staab, Evgeny Kharlamov.
-				<a href="">Evaluating Knowledge Graph Based Retrieval Augmented Generation Methods under Knowledge Incompleteness.</a>
+				<a href="https://iris-ai.org/resources/proceedings/2025/papers/1.pdf">Evaluating Knowledge Graph Based Retrieval Augmented Generation Methods under Knowledge Incompleteness.</a>
 				The 1st International Research and Industry Symposium on AI (IRIS-AI 2025).
 			</p>
 			<h4>2024</h4>
@@ -171,6 +166,16 @@ permalink: /publication/
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+
+<script type="text/javascript">
+	// Off-site links and PDFs open in a new tab; navigation within the site does not.
+	document.querySelectorAll("a[href]").forEach(function (a) {
+		if (a.hostname !== location.hostname || a.pathname.toLowerCase().endsWith(".pdf")) {
+			a.target = "_blank";
+			a.rel = "noopener";
+		}
+	});
+</script>
 
 </body>
 </html>

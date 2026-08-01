@@ -4,7 +4,6 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<base target="_blank" />
 	<title>Xiaxia Wang</title>
 	<link rel="icon" href="images/ducky.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="images/ducky.ico" type="image/x-icon">
@@ -245,6 +244,16 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+
+<script type="text/javascript">
+	// Off-site links and PDFs open in a new tab; navigation within the site does not.
+	document.querySelectorAll("a[href]").forEach(function (a) {
+		if (a.hostname !== location.hostname || a.pathname.toLowerCase().endsWith(".pdf")) {
+			a.target = "_blank";
+			a.rel = "noopener";
+		}
+	});
+</script>
 
 <script type="text/javascript">
 	function showMore() {
